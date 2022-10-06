@@ -4,6 +4,8 @@ cd /home/ashokdas_test1/jenkins/workspace/AWS_Recommendations/recommendations
 
 BRANCH=${RANDOM}
 
+whoami
+
 git checkout -b "${BRANCH}"
 
 function getInstanceId() {
