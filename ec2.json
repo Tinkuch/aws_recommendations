@@ -66,8 +66,8 @@
                         }
                     ],
                     "platformDifferences": [
-                        "NetworkInterface",
                         "Hypervisor",
+                        "NetworkInterface",
                         "StorageInterface"
                     ],
                     "performanceRisk": 1.0,
@@ -95,7 +95,7 @@
                     "recommendationSourceType": "Ec2Instance"
                 }
             ],
-            "lastRefreshTimestamp": "2022-10-06T09:37:57.328000+00:00",
+            "lastRefreshTimestamp": "2022-10-06T12:39:12.393000+00:00",
             "effectiveRecommendationPreferences": {
                 "cpuVendorArchitectures": [
                     "CURRENT"
