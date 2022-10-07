@@ -11,47 +11,47 @@
                 {
                     "name": "CPU",
                     "statistic": "MAXIMUM",
-                    "value": 16.6666666666667
+                    "value": 100.0
                 },
                 {
                     "name": "EBS_READ_OPS_PER_SECOND",
                     "statistic": "MAXIMUM",
-                    "value": 24.566666666666666
+                    "value": 94.45
                 },
                 {
                     "name": "EBS_WRITE_OPS_PER_SECOND",
                     "statistic": "MAXIMUM",
-                    "value": 18.766666666666666
+                    "value": 145.23333333333332
                 },
                 {
                     "name": "EBS_READ_BYTES_PER_SECOND",
                     "statistic": "MAXIMUM",
-                    "value": 362044.26666666666
+                    "value": 3206835.933333333
                 },
                 {
                     "name": "EBS_WRITE_BYTES_PER_SECOND",
                     "statistic": "MAXIMUM",
-                    "value": 848933.9166666666
+                    "value": 31253645.833333332
                 },
                 {
                     "name": "NETWORK_IN_BYTES_PER_SECOND",
                     "statistic": "MAXIMUM",
-                    "value": 2926.0844444444447
+                    "value": 181898.4738888889
                 },
                 {
                     "name": "NETWORK_OUT_BYTES_PER_SECOND",
                     "statistic": "MAXIMUM",
-                    "value": 64.21611111111112
+                    "value": 1372.1158333333333
                 },
                 {
                     "name": "NETWORK_PACKETS_IN_PER_SECOND",
                     "statistic": "MAXIMUM",
-                    "value": 2.0775
+                    "value": 123.93222222222222
                 },
                 {
                     "name": "NETWORK_PACKETS_OUT_PER_SECOND",
                     "statistic": "MAXIMUM",
-                    "value": 0.36944444444444446
+                    "value": 25.68277777777778
                 }
             ],
             "lookBackPeriodInDays": 14.0,
@@ -62,13 +62,13 @@
                         {
                             "name": "CPU",
                             "statistic": "MAXIMUM",
-                            "value": 10.144927536231904
+                            "value": 60.86956521739131
                         }
                     ],
                     "platformDifferences": [
-                        "NetworkInterface",
+                        "StorageInterface",
                         "Hypervisor",
-                        "StorageInterface"
+                        "NetworkInterface"
                     ],
                     "performanceRisk": 1.0,
                     "rank": 1,
@@ -80,7 +80,7 @@
                         {
                             "name": "CPU",
                             "statistic": "MAXIMUM",
-                            "value": 16.6666666666667
+                            "value": 100.0
                         }
                     ],
                     "platformDifferences": [],
@@ -95,7 +95,7 @@
                     "recommendationSourceType": "Ec2Instance"
                 }
             ],
-            "lastRefreshTimestamp": "2022-10-06T09:37:57.328000+00:00",
+            "lastRefreshTimestamp": "2022-10-07T03:37:29.179000+00:00",
             "effectiveRecommendationPreferences": {
                 "cpuVendorArchitectures": [
                     "CURRENT"
