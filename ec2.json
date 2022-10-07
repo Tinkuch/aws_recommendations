@@ -95,7 +95,7 @@
                     "recommendationSourceType": "Ec2Instance"
                 }
             ],
-            "lastRefreshTimestamp": "2022-10-07T00:37:38.695000+00:00",
+            "lastRefreshTimestamp": "2022-10-07T03:37:29.179000+00:00",
             "effectiveRecommendationPreferences": {
                 "cpuVendorArchitectures": [
                     "CURRENT"
