@@ -1,7 +1,7 @@
 node(){
         stage('Git Clone'){
             git branch: 'main', url: 'https://github.com/Tinkuch/aws_recommendations'
-            sh '/home/ashokdas_test1/jenkins/workspace/AWS_Recommendations'
+            sh '/home/ubuntu/var/lib/jenkins/workspace/'
         }
         stage("AWS"){
             dir ("${env.WORKSPACE}"){
