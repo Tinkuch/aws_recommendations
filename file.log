@@ -6,13 +6,13 @@ t2.micro
   {
     "name": "CPU",
     "statistic": "MAXIMUM",
-    "value": 10.144927536231904
+    "value": 60.86956521739131
   }
 ]
 [
   {
     "name": "CPU",
     "statistic": "MAXIMUM",
-    "value": 16.6666666666667
+    "value": 100
   }
 ]
