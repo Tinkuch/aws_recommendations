@@ -55,13 +55,17 @@ printf "${INSATNCEID}\n${ACCOUNTID}\n${INSTANCETYPE}\n${PROJECTUTILIZATIONMETRIC
 chmod 777 file.log
 chmod 777 ec2.json
 
+git init 
+
+git status 
+
 git add file.log ec2.json
 
 git commit -m "${INSATNCEID}"
 
 #git config --global push.autoSetupRemote true
 
-git push origin "${BRANCH}":"${BRANCH}"
+git push -u origin "${BRANCH}":"${BRANCH}"
 
 #git push --set-upstream origin "${BRANCH}"
 
