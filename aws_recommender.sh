@@ -55,10 +55,6 @@ printf "${INSATNCEID}\n${ACCOUNTID}\n${INSTANCETYPE}\n${PROJECTUTILIZATIONMETRIC
 chmod 777 file.log
 chmod 777 ec2.json
 
-git init 
-
-git status 
-
 git add *
 
 git commit -m "${INSATNCEID}"
