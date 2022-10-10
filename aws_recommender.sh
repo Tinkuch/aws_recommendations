@@ -59,6 +59,8 @@ git add file.log ec2.json
 
 git commit -m "${INSATNCEID}"
 
+git config --global push.autoSetupRemote true
+
 git push origin "${BRANCH}":"${BRANCH}"
 
 #git push --set-upstream origin "${BRANCH}"
