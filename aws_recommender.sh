@@ -67,9 +67,7 @@ git push origin "${BRANCH}":"${BRANCH}"
 
 #git push -o merge_request.create
 
-#hub pull-request -m "merge "${BRANCH}"approve merge to apply recommendation"
-
-hub pull-request -f
+hub pull-request -m "merge "${BRANCH}" approve merge to apply recommendation"
 
 #git push \
 # -o merge_request.create \
