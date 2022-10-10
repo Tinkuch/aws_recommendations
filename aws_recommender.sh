@@ -63,6 +63,10 @@ git commit -m "${INSATNCEID}"
 
 #git config --global push.autoSetupRemote true
 
+git remote add origin git@github.com:Tinkuch/aws_recommendations.git
+
+git remote -v
+
 git push -u origin "${BRANCH}":"${BRANCH}"
 
 #git push --set-upstream origin "${BRANCH}"
