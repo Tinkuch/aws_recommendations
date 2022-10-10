@@ -59,7 +59,7 @@ git init
 
 git status 
 
-git add file.log ec2.json
+git add *
 
 git commit -m "${INSATNCEID}"
 
