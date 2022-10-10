@@ -19,4 +19,4 @@ echo $INSATNCEID
 INSTANCETYPE=$( jq -r '.instanceRecommendations[].recommendationOptions[].instanceType' < ec2.json )
 echo "Recommednded instanceType: ${INSTANCETYPE}"
 
-aws ec2 modify-instance-attribute --instance-id $INSATNCEID --instance-type "{\"Value\": \"t3.micro\"}"
+aws ec2 modify-instance-attribute --instance-ids $INSATNCEID --instance-type "{\"Value\": \"t3.micro\"}"
