@@ -1,7 +1,7 @@
-node(worker03){
+node('worker03'){
         stage('Git Clone'){
             git branch: 'main', url: 'git@github.com:Tinkuch/aws_recommendations.git'
-            sh 'chmod 777 /tmp/jenkins/workspace/AWS_Recommendations/recommendation_apply'
+            sh 'chmod 777 /tmp/jenkins/workspace/AWS_Recommendations/recommendations_apply'
         }
         stage("AWS"){
             dir ("${env.WORKSPACE}"){
