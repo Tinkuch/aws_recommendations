@@ -69,6 +69,8 @@ git remote -v
 
 git push -u origin "${BRANCH}":"${BRANCH}"
 
+sleep 2
+
 #git push --set-upstream origin "${BRANCH}"
 
 #git push -o merge_request.create
