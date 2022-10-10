@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#cd /tmp/jenkins/workspace/AWS_Recommendations/aws_recommendations
+cd /tmp/jenkins/workspace/AWS_Recommendations/aws_recommendations
 
 BRANCH=${RANDOM}
 
