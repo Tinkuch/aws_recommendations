@@ -6,8 +6,6 @@ BRANCH=${RANDOM}
 
 whoami
 
-git init
-
 git checkout -b "${BRANCH}"
 
 function getInstanceId() {
@@ -67,9 +65,7 @@ git commit -m "${INSATNCEID}"
 
 git remote -v
 
-git push -u origin "${BRANCH}":"${BRANCH}"
-
-sleep 20
+git push origin "${BRANCH}":"${BRANCH}"
 
 #git push --set-upstream origin "${BRANCH}"
 
