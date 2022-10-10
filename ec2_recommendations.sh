@@ -22,7 +22,7 @@ function getInstanceId() {
 }
 
 ###Get recommendations for ec2 instances###
-aws compute-optimizer get-ec2-instance-recommendations > ec2.json
+#aws compute-optimizer get-ec2-instance-recommendations > ec2.json
 
 #InstanceArn
 INSTANCEARN=$( jq -r '.instanceRecommendations[].instanceArn' < ec2.json )
