@@ -6,6 +6,8 @@ BRANCH=${RANDOM}
 
 whoami
 
+git init
+
 git checkout -b "${BRANCH}"
 
 function getInstanceId() {
