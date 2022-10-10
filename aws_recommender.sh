@@ -75,7 +75,7 @@ git push -u origin "${BRANCH}":"${BRANCH}"
 
 #hub pull-request -m "merge "${BRANCH}" approve merge to apply recommendation"
 
-hub pull-request -b <owner>:master
+hub pull-request -b Tinkuch:master
 
 #hub pull-request --browse -m "merge "${BRANCH}" approve merge to apply recommendation"
 
