@@ -1,4 +1,5 @@
 #!/bin/bash
+
 function getInstanceId() {
     delimiter="instance/"
     s=$1$delimiter
@@ -11,6 +12,7 @@ function getInstanceId() {
 
     INSATNCEID=${INSTANCEDETAILS[1]}
 }
+
 INSTANCEARN=$( jq -r '.instanceRecommendations[].instanceArn' < ec2.json )
 #INSTANCEARN="arn:aws:ec2:us-east-1:876737291315:instance/i-09bda3910e4a06b7d"
 getInstanceId $INSTANCEARN
