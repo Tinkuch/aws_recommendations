@@ -67,7 +67,7 @@ git push origin "${BRANCH}":"${BRANCH}"
 
 #git push -o merge_request.create
 
-hub pull-request -b
+hub pull-request -b "[Tinkuch:] main" 
 #"merge "${BRANCH}"approve merge to apply recommendation"
 
 #git push \
