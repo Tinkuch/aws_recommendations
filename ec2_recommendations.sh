@@ -65,7 +65,7 @@ git commit -m "${INSATNCEID}"
 
 git remote -v
 
-git push origin "${BRANCH}":"${BRANCH}"
+git push -u origin "${BRANCH}":"${BRANCH}"
 
 #git push --set-upstream origin "${BRANCH}"
 
