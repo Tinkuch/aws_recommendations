@@ -1,6 +1,6 @@
 node('worker03'){
         stage('Git Clone'){
-            git branch: 'main', url: 'https://github.com/Tinkuch/aws_recommendations.git'
+            git branch: 'main', url: 'git@github.com:Tinkuch/aws_recommendations.git'
             sh 'chmod 777 /tmp/jenkins/workspace/AWS_Recommendations/aws_recommendations'
         }
         stage("AWS"){
