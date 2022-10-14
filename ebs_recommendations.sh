@@ -20,7 +20,7 @@ function getVolumeId() {
 }
 
 ###Get recommendations for ec2 instances###
-aws compute-optimizer get-ebs-volume-recommendations > vol.json
+#aws compute-optimizer get-ebs-volume-recommendations > ebs.json
 
 #VolumeArn
 VOLUMEARN=$( jq -r '.volumeRecommendations[].volumeArn' < vol.json )
@@ -57,11 +57,11 @@ echo "Rank: ${RANK}"
 
 printf "${VOLUMEID}\n${ACCOUNTID}\n${VOLUMETYPE}\n${VOLUMESIZE}" > file.log
 chmod 777 file.log
-chmod 777 ec2.json
+chmod 777 ebs.json
 
 git add file.log ec2.json
 
-git commit -m "${INSATNCEID}"
+git commit -m "${VOLUMEID}"
 
 git push origin "${BRANCH}":"${BRANCH}"
 
