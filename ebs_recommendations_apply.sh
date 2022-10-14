@@ -24,7 +24,7 @@ VOLUMETYPETYPE=$( jq -r '.volumeRecommendations[].volumeRecommendationOptions[].
 echo "Recommednded volumeType: ${VOLUMETYPE}"
 
 aws ec2 modify-volume \
-    --volume-type gp3 \
+    --volume-type gp2 \
     --iops 100 \
     --size 8 \
     --volume-id vol-00e9c6f138981857d
