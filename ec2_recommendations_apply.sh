@@ -23,7 +23,7 @@ echo "Recommednded instanceType: ${INSTANCETYPE}"
 
 aws ec2 stop-instances --instance-ids $INSATNCEID
 
-sleep 30
+sleep 10
 
 aws ec2 modify-instance-attribute --instance-id $INSATNCEID --instance-type "{\"Value\": \"t3.micro\"}"
 
