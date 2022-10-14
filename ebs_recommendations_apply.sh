@@ -25,6 +25,11 @@ echo "Recommednded volumeType: ${VOLUMETYPE}"
 
 aws ec2 modify-volume \
     --volume-type gp2 \
-    --iops 3000 \
     --size 8 \
     --volume-id vol-00e9c6f138981857d
+
+#aws ec2 modify-volume \
+#    --volume-type gp2 \
+#    --iops 3000 \
+#    --size 8 \
+#    --volume-id vol-00e9c6f138981857d
