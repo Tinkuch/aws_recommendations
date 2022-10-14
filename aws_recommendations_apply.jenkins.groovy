@@ -5,8 +5,8 @@ node('worker03'){
         }
         stage("AWS"){
             dir ("${env.WORKSPACE}"){
-                sh 'chmod 755 ebs_recommendations_apply.sh'
-                sh './ebs_recommendations_apply.sh'
+                sh 'chmod 755 ec2_recommendations_apply.sh'
+                sh './ec2_recommendations_apply.sh'
             }
         }
     }
