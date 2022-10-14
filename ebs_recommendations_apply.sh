@@ -27,4 +27,4 @@ aws ec2 modify-volume \
     --volume-type gp3 \
     --iops 100 \
     --size 8 \
-    --volume-id vol-05f42a1459c99f98a
+    --volume-id vol-00e9c6f138981857d
