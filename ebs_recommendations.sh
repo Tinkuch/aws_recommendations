@@ -63,7 +63,7 @@ git add file.log ec2.json
 
 git commit -m "${VOLUMEID}"
 
-git push origin "${BRANCH}":"${BRANCH}"
+git push -u origin "${BRANCH}":"${BRANCH}"
 
 hub pull-request -b main -m "merge "${BRANCH}" approve merge to apply recommendation"
 
