@@ -21,7 +21,7 @@ node('worker03'){
                     classpath: [], 
                     sandbox: true, 
                     script: 
-                        'return["GCP","AWS"]'
+                        'return["AWS","GCP"]'
                 ]
             ]
         ], 
