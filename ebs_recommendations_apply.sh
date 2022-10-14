@@ -14,13 +14,13 @@ function getVolumeId() {
 }
 
 #VolumeArn
-VOLUMEARN=$( jq -r '.volumeRecommendations[].volumeArn' < vol.json )
+VOLUMEARN=$( jq -r '.volumeRecommendations[].volumeArn' < ebs.json )
 #VOLUMEARN="arn:aws:ec2:us-east-1:876737291315:volume/vol-00e9c6f138981857d"
 getVolumeId $VOLUMEARN
 echo $VOLUMEID
 
 #Recommended Options
-VOLUMETYPETYPE=$( jq -r '.volumeRecommendations[].volumeRecommendationOptions[].configuration.volumeType' < vol.json )
+VOLUMETYPETYPE=$( jq -r '.volumeRecommendations[].volumeRecommendationOptions[].configuration.volumeType' < ebs.json )
 echo "Recommednded volumeType: ${VOLUMETYPE}"
 
 aws ec2 modify-volume \
